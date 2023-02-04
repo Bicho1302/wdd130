@@ -60,10 +60,10 @@ border-radius: 5px;
     color: white;
 }
 #background{
-    background-color: white;
+    background-color: #404E4D;
 }
 .msg{
-    background-color: #404E4D;
+    background-color: white;
     line-height: 1.5em;
     padding: 35px;
 }
