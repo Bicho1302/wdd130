@@ -84,7 +84,7 @@ footer{
     align-items: center;
 }
 .home-tittle{
-    color: #404E4D;
+    color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
     margin-top: 10px;
@@ -207,6 +207,7 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
