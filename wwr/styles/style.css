@@ -210,7 +210,7 @@ nav {
 }
 .rivers-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
 }
 .river{
     text-align: center;
@@ -231,6 +231,7 @@ nav {
 }
 .grand-canyon{
     text-align: left;
+    grid-column: 12/16;
 }
 .c-img{
     justify-items: right;
