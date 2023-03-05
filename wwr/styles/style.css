@@ -232,6 +232,7 @@ nav {
 .grand-canyon{
     text-align: left;
     grid-column: 12/16;
+    grid-row: 3/6;
 }
 .c-img{
     justify-items: right;
