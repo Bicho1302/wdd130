@@ -208,7 +208,10 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
-
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
 .river{
     text-align: center;
 
@@ -216,7 +219,19 @@ nav {
 .main-fork{
     text-align: left;
 
+
 }
+.desolation{
+    text-align: left;
+
+}
+.grand-canyon{
+    text-align: left;
+}
+.c-img{
+    justify-items: right;
+}
+
 
 
 
