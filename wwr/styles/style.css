@@ -208,31 +208,25 @@ nav {
     opacity: .6;
     transform: scale(1.1);
 }
-.rivers-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-}
+
+
 .river{
     text-align: center;
-    grid-column: 1/2;
-    grid-row: 3/6;
+   
 
 }
 .main-fork{
     text-align: left;
-    grid-column: 3/6;
-    grid-row: 3/6;
+   
 
 }
 .desolation{
     text-align: left;
-    grid-column:  7/12; ;
-    grid-row: 3/6;
+    
 }
 .grand-canyon{
     text-align: left;
-    grid-column: 12/16;
-    grid-row: 3/6;
+   
 }
 .c-img{
     justify-items: right;
