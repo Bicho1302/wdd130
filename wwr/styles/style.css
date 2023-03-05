@@ -214,16 +214,20 @@ nav {
 }
 .river{
     text-align: center;
+    grid-column: 1/2;
+    grid-row: 3/6;
 
 }
 .main-fork{
     text-align: left;
-
+    grid-column: 3/6;
+    grid-row: 3/6;
 
 }
 .desolation{
     text-align: left;
-
+    grid-column:  7/12; ;
+    grid-row: 3/6;
 }
 .grand-canyon{
     text-align: left;
