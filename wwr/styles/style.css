@@ -212,21 +212,38 @@ nav {
 
 .river{
     text-align: center;
+    color: #404E4D;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    
+
    
 
 }
 .main-fork{
-    text-align: left;
-   
+    text-align: center;
+    color: #404E4D;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    
+
 
 }
 .desolation{
-    text-align: left;
+    text-align: center;
+    color: #404E4D;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
     
 }
+    
+
 .grand-canyon{
-    text-align: left;
-   
+    text-align: center;
+    color: #404E4D;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    
 }
 .c-img{
     justify-items: center;
