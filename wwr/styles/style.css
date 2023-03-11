@@ -210,18 +210,9 @@ nav {
 }
 
 
-.river{
-    text-align: center;
-    color: #404E4D;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
-    
 
-   
-
-}
 .main-fork{
-    text-align: center;
+    text-align: left;
     color: #404E4D;
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
@@ -230,7 +221,7 @@ nav {
 
 }
 .desolation{
-    text-align: center;
+    text-align: left;
     color: #404E4D;
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
@@ -239,7 +230,7 @@ nav {
     
 
 .grand-canyon{
-    text-align: center;
+    text-align: left;
     color: #404E4D;
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
