@@ -29,15 +29,15 @@ nav a:hover{
     justify-content: stretch;
 }
 .card-img{
-    width: 250px;
+    width: 500px;
     grid-area: 2/5/4/7;
     align-items: start;
 }
 .card-img1{
-    width: 250px;
+    width: 500px;
     grid-area: 4/1/7/5;
     justify-self: center;
-    
+    margin-top: 50px;
 }
 .msg{
     font-family: 'Roboto Slab';
