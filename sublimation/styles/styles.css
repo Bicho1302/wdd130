@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto+Slab:wght@400&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto
+    
+    
+  }
+nav a {
+    text-align: center;
+    color: #003844;
+    text-decoration: none;
+    padding: 35px;
+    text-align: center;
+    font-family: Oswald;
+    font-size: 20px;
+    
+}
+.logo{
+    width: 80px;
+}
+nav a:hover{
+    background-color: #F5E4D7;
+    color: #003844;
+}
+.image-home-1{
+    font-family: Roboto Slab;
+    font-size: 20px;
+    grid-area: 1/2/4/5;
+    justify-content: stretch;
+}
+.card-img{
+    width: 250px;
+    grid-area: 1/5/4/7;
+    align-items: center;
+}
+.card-img1{
+    width: 250px;
+    grid-area: 4/1/7/5;
+    justify-self: center;
+    margin-top: -1;
+}
+.msg{
+    font-family: Roboto Slab;
+    font-size: 20px;
+    grid-area: 5/5/8/7;
+}
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #839788;
+}
+.home-grid{
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr 1fr 1fr 
+}
+.learn-more:hover{
+background-color: #F5E4D7;
+color: #003844;
+}
+.learn-more{
+    background-color: #003844;
+    color: #F5E4D7;
+    text-decoration: none;
+    font-family: Oswald;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
+}
+footer{
+    background-color: #839788 ;
+    color: #003844;
+    margin-top: 200px;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Oswald;
+    font-size: 20px;
+}
+footer a{
+    color: #F5E4D7;
+    text-decoration: none;
+}
+footer a:hover{
+    color:#003844 ;
+}
+footer .social img {
+    padding-top: 15px;
+}
+#logo_link {
+    padding-top: 5px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
