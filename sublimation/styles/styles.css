@@ -25,13 +25,13 @@ nav a:hover{
 .image-home-1{
     font-family: 'Roboto Slab';
     font-size: 20px;
-    grid-area: 1/2/4/5;
+    grid-area: 2/2/4/5;
     justify-content: stretch;
 }
 .card-img{
     width: 250px;
-    grid-area: 1/5/4/7;
-    align-items: center;
+    grid-area: 2/5/4/7;
+    align-items: start;
 }
 .card-img1{
     width: 250px;
