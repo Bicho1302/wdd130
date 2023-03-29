@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sublimation | Home</title>
-    <link rel="stylesheet" href="styles/site-plan.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <div id="content">
@@ -24,35 +24,38 @@
     
     </div>
     <main class="types-grid">
-        <section class="basic-sublimation">
-            <h2>Basic Sublimation</h2>
+        
+        <div class="tab">
+            <button class="tablinks" onmouseover="openCity(event, 'basic-sublimation')">Basic Sublimation</button>
+            <button class="tablinks" onmouseover="openCity(event, 'full-sublimation')">Ful Sublimation</button>
+            <button class="tablinks" onmouseover="openCity(event, 'spot-sublimation')">Spot Sublimation</button>
+          </div>
+          
+          <div id="basic-sublimation" class="tabcontent">
+            <h3>Basic Sublimation</h3>
             <p>Basic sublimation is a simple print on multiple different fabrics. It will allow you to have a 
                 single graphic/logo on a pair of colored shorts. It will also allow for you to do a multiple 
                 color print on our mesh reversible.</p>
-            
-        </section>
-       
-        <section class="full-sublimation">
-            <h2>Full Sublimation</h2>
-        <p>Sublimation printing allows you to gain full control over every inch of your jersey. The design is 
-            printed directly onto the fabric before it is sewn together, so designs can span the entire length 
-            of the shirt, go across seams, wrap over shoulders, and more.
-    </p>
-        
-        </section>
-        <section class="spot-sublimation">
-            <h2>Spot Sublimation</h2>
+          </div>
+          
+          <div id="full-sublimation" class="tabcontent">
+            <h3>Full Sublimation</h3>
+            <p>Sublimation printing allows you to gain full control over every inch of your jersey. The design is 
+                printed directly onto the fabric before it is sewn together, so designs can span the entire length 
+                of the shirt, go across seams, wrap over shoulders, and more.</p>
+          </div>
+          
+          <div id="spot-sublimation" class="tabcontent">
+            <h3>Spot Sublimation</h3>
             <p>Spot sublimation is a process by which a design is applied to a smaller area of a previously sewn 
                 white garment. Spot sublimation is often chosen over screen printing because this method can 
                 print as many colors as are in your logo (gradients and shading as well) without incurring the 
-                additional screen setup fees that would be associated with a multi-colored design.
-                
-        </p>
-            
-            </section>
-        <img class="card-img" src="images/imagepage3subli.png" alt="sublimation example">
-        <img class="card-img" src="images/page3imagesublimation.jpg" alt="sublimation example">
-        <img class="card-img" src="images/Imagenpage2subli .png" alt="sublimation example">
+                additional screen setup fees that would be associated with a multi-colored design.</p>
+          </div>
+        </div>   
+        <img class="card-img22" src="images/imagepage3subli.png" alt="sublimation example">
+        <img class="card-img23" src="images/page3imagesublimation.jpg" alt="sublimation example">
+        <img class="card-img24" src="images/homeimgagesubli.png" alt="sublimation example">
 
     </main>
 
@@ -72,6 +75,28 @@
         </a>
     </div>
 </footer> 
-    </div>   
+    </div> 
+    <script>
+        function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the link that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+    </script>  
 </body>
 </html>
