@@ -34,7 +34,7 @@ nav a:hover{
     align-items: start;
 }
 .card-img1{
-    width: 500px;
+    width: 300px;
     grid-area: 4/1/7/5;
     justify-self: center;
     margin-top: 50px;
@@ -163,6 +163,29 @@ nav {
 .card-img24{
     width: 400px;
     grid-area: 6/6/7/6;
+}
+.art-grid{
+    display: grid;
+    grid-template:1fr 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr;
+}
+.art-1{
+    font-family: 'Oswald';
+    grid-area: 1/1/3/4;
+    margin: 30px;
+    font-size: 20px;
+    color: #003844;
+}
+.art-2{
+    font-family: 'Oswald';
+    grid-area:3/2/5/5 ;
+    font-size: 20px;
+    color: #003844;
+}
+.card-img32{
+    width: 500px;
+    grid-area: 2/3/4/3;
+    margin: 40px;
+   
 }
 
 
