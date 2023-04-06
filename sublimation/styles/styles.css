@@ -113,7 +113,7 @@ nav {
   }
   
   /* Style the buttons that are used to open the tab content */
-  .tab button {
+  .tablinks {
     display: block;
     background-color: inherit;
     color:#003844;
@@ -123,6 +123,7 @@ nav {
     outline: none;
     text-align: left;
     cursor: pointer;
+    margin: 2px 0 0 0;
     
   }
   
@@ -138,7 +139,6 @@ nav {
   
   /* Style the tab content */
   .tabcontent {
-    float: left;
     padding: 0px 12px;
     border: 1px solid #ccc;
     width: 100%;
